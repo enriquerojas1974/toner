@@ -1,0 +1,18 @@
+[
+  {"id":"tn730","sku":"TN730","family":"TN730/TN760","color":"Black","yield_type":"Standard yield","page_yield":1200},
+  {"id":"tn760","sku":"TN760","family":"TN730/TN760","color":"Black","yield_type":"High yield","page_yield":3000},
+  {"id":"tn830","sku":"TN830","family":"TN830/TN830XL","color":"Black","yield_type":"Standard yield","page_yield":1200},
+  {"id":"tn830xl","sku":"TN830XL","family":"TN830/TN830XL","color":"Black","yield_type":"High yield","page_yield":3000},
+  {"id":"tn630","sku":"TN630","family":"TN630/TN660","color":"Black","yield_type":"Standard yield","page_yield":1200},
+  {"id":"tn660","sku":"TN660","family":"TN630/TN660","color":"Black","yield_type":"High yield","page_yield":2600},
+  {"id":"tn820","sku":"TN820","family":"TN820/TN850","color":"Black","yield_type":"Standard yield","page_yield":3000},
+  {"id":"tn850","sku":"TN850","family":"TN820/TN850","color":"Black","yield_type":"High yield","page_yield":8000},
+  {"id":"tn229bk","sku":"TN229BK","family":"TN229","color":"Black","yield_type":"Standard yield","page_yield":1500},
+  {"id":"tn229c","sku":"TN229C","family":"TN229","color":"Cyan","yield_type":"Standard yield","page_yield":1200},
+  {"id":"tn229m","sku":"TN229M","family":"TN229","color":"Magenta","yield_type":"Standard yield","page_yield":1200},
+  {"id":"tn229y","sku":"TN229Y","family":"TN229","color":"Yellow","yield_type":"Standard yield","page_yield":1200},
+  {"id":"tn229xlbk","sku":"TN229XLBK","family":"TN229","color":"Black","yield_type":"High yield","page_yield":3000},
+  {"id":"tn229xlc","sku":"TN229XLC","family":"TN229","color":"Cyan","yield_type":"High yield","page_yield":2300},
+  {"id":"tn229xlm","sku":"TN229XLM","family":"TN229","color":"Magenta","yield_type":"High yield","page_yield":2300},
+  {"id":"tn229xly","sku":"TN229XLY","family":"TN229","color":"Yellow","yield_type":"High yield","page_yield":2300}
+]
