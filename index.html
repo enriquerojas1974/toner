@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Find the Brother toner cartridges that fit your printer and compare sample buying options.">
+    <meta name="theme-color" content="#10223f">
+    <title>TonerMatch — Find the right Brother toner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" type="module"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="TonerMatch home">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </span>
+        <span>TonerMatch</span>
+      </a>
+      <span class="demo-badge">Version 1 demo</span>
+    </header>
+
+    <main>
+      <section class="search-panel" aria-labelledby="page-title">
+        <div class="intro">
+          <p class="eyebrow">Brother toner finder</p>
+          <h1 id="page-title">The right toner, without the guesswork.</h1>
+          <p class="intro-copy">Enter your Brother printer model to see exactly which cartridges fit.</p>
+        </div>
+
+        <form id="printer-form" class="printer-search" novalidate>
+          <label for="printer-input">Printer model</label>
+          <div class="search-row">
+            <div class="combobox-wrap">
+              <svg class="search-icon" aria-hidden="true" viewBox="0 0 24 24">
+                <path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" />
+              </svg>
+              <input
+                id="printer-input"
+                name="printer"
+                type="search"
+                placeholder="Try MFC-L2710DW or 2710"
+                autocomplete="off"
+                role="combobox"
+                aria-autocomplete="list"
+                aria-expanded="false"
+                aria-controls="suggestions"
+                aria-describedby="search-help"
+              >
+              <ul id="suggestions" class="suggestions" role="listbox" hidden></ul>
+            </div>
+            <button class="primary-button" type="submit">Find my toner</button>
+          </div>
+          <p id="search-help" class="search-help">Hyphens, spaces and capitalization do not matter.</p>
+          <p id="search-error" class="search-error" role="alert" hidden></p>
+        </form>
+
+        <div class="popular-searches" aria-label="Popular printer searches">
+          <span>Popular:</span>
+          <button type="button" data-printer="MFC-L2710DW">MFC-L2710DW</button>
+          <button type="button" data-printer="HL-L2405W">HL-L2405W</button>
+          <button type="button" data-printer="MFC-L3780CDW">MFC-L3780CDW</button>
+        </div>
+      </section>
+
+      <section id="results" class="results" aria-live="polite" hidden>
+        <div class="result-heading">
+          <div>
+            <p class="eyebrow">Exact compatibility match</p>
+            <h2 id="printer-name"></h2>
+          </div>
+          <span class="verified-pill">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6" /></svg>
+            Match found
+          </span>
+        </div>
+
+        <div id="toner-summary" class="toner-summary"></div>
+
+        <div class="deals-heading">
+          <div>
+            <p class="eyebrow">Buying shortcuts</p>
+            <h2>Choose what matters most</h2>
+          </div>
+          <p>Sample prices for the demo. Buttons open a live eBay Canada search.</p>
+        </div>
+        <div id="deal-grid" class="deal-grid"></div>
+      </section>
+
+      <section id="empty-state" class="empty-state">
+        <div class="empty-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M7 8V4h10v4M6 18H4a2 2 0 0 1-2-2v-6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2M6 14h12v8H6z" /></svg>
+        </div>
+        <div>
+          <h2>Start with your printer model</h2>
+          <p>The demo includes 40 popular Brother laser printers across five major toner families.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><strong>TonerMatch</strong> helps shoppers identify compatible toner. Always confirm the listing details before buying.</p>
+      <p class="footer-note">Demo data only · No eBay API credentials are used in this version.</p>
+    </footer>
+  </body>
+</html>
